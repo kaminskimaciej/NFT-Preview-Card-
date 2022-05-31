@@ -1,0 +1,111 @@
+/*  General Styles */
+
+* {
+    font-family: 'Outfit', sans-serif;
+    /* border: 1px solid green; */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+    color: aliceblue;
+}
+
+/* Card NFT */
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(216, 50%, 16%);
+    max-width: 350px;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+
+.card img {
+    border-radius: 15px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.equilibrium h3 {
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    font-size: 24px;
+    margin: 20px auto;
+}
+
+.equilibrium h3:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+
+p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.5em;
+    color: hsl(215, 51%, 70%);
+}
+
+
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.5em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 600;
+}
+
+.left,
+.right {
+    display: flex;
+}
+
+.eth, 
+.days {
+    padding-left: 10px;
+}
+
+
+.days {
+    color: hsl(215, 51%, 70%);
+}
+
+.eth {
+    color: hsl(178, 100%, 50%);
+}
+
+
+.footer {
+    display: flex;
+    align-items: center;
+    border-top: 0.7px solid hsl(215, 32%, 27%);
+    padding-top: 20px;
+}
+
+.footer img {
+    width: 34px;
+    height: 34px; 
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-right: 15px;
+    
+}
+
+.footer a {
+    color: hsl(0, 0%, 100%);
+}
+
+.footer a:hover {
+    color: hsl(178, 100%, 50%);
+}
